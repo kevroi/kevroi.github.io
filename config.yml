@@ -60,8 +60,8 @@ params:
           buttons:
             - name: Publications
               url: papers/
-            - name: Teaching
-              url: courses/
+            # - name: Teaching
+            #   url: courses/
             # - name: Data
             #   url: data/
             # - name: Books
