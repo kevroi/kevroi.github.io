@@ -104,7 +104,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Kevin Roice"
-      icon: favicon.ico
+      icon: favicon2.ico
       iconHeight: 18
 
 markup:
