@@ -53,7 +53,7 @@ params:
     profileMode:
           enabled: true
           title: Kevin Roice
-          subtitle: "I am a Machine Learning Resident at the Alberta Machine Intelligence Institute (Amii). I received my MSc in Statistical Machine Learning while working with [<u>Martha White</u>](https://webdocs.cs.ualberta.ca/~whitem/) and [<u>Adam White</u>](https://sites.ualberta.ca/~amw8/). I completed my BSc double majoring in Physics & Computer Science at Durham University. My research focuses on developing agents that can reason in time and learn continually."
+          subtitle: "I am a Machine Learning Resident at the Alberta Machine Intelligence Institute (Amii). I received my MSc in Statistical Machine Learning while working with [Martha White](https://webdocs.cs.ualberta.ca/~whitem/) and [Adam White](https://sites.ualberta.ca/~amw8/). I completed my BSc double majoring in Physics & Computer Science at Durham University. My research focuses on developing agents that can reason in time and learn continually."
           imageUrl: "profile_pic.jpg"
           imageWidth: 200
           imageHeight: 200
