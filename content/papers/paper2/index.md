@@ -2,10 +2,10 @@
 title: "RHapTor: Rendering Haptic Torques for Virtual Reality" 
 date: 2022-08-07
 lastmod: 2024-10-28
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
+tags: ["Virtual Reality","Haptic Feedback","Kinaesthetic Devices"]
 author: ["Kevin Roice", "George A. Koulieris"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+description: "" 
+summary: "We augment a virtual reality headset to include two motor-driven discs, which induce a controllable gyroscopic torque on the wearer’s head." 
 cover:
     image: "paper2.png"
     alt: "RHapTor"

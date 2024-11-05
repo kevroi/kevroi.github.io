@@ -4,7 +4,7 @@ date: 2024-10-22
 lastmod: 2024-10-28
 tags: ["Model-Based Reinforcement Learning","Temporal Abstraction","Planning"]
 author: ["Chunlok Lo*","Kevin Roice*", "Parham Mohammad Panahi*", "Scott M. Jordan", "Adam White", "Gabor Michuz", "Farzane Aminmansour", "Martha White"]
-description: "We present" 
+description: "" 
 summary: "We propose a long-horizon background-planning algorithm for online RL. This used compressed subgoal
 models (abstract in state & time) for faster long-term decision making & smarter value propagation." 
 cover:
