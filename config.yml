@@ -60,10 +60,10 @@ params:
           buttons:
             - name: Publications
               url: papers/
-            # - name: Teaching
-            #   url: courses/
-            # - name: Data
-            #   url: data/
+            - name: MSc Thesis
+              url: theses/msc_thesis.pdf
+            - name: BSc Thesis
+              url: theses/bsc_thesis.pdf
             # - name: Books
             #   url: books/
             # - name: Tags
