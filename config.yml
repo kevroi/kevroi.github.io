@@ -10,21 +10,18 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
+        - name: Publications
           url: papers/
           weight: 2
         - name: Courses
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
+        # - name: Blog
+        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #   weight: 6
 
 params:
     description: ""
@@ -64,8 +61,8 @@ params:
               url: theses/msc_thesis.pdf
             - name: BSc Thesis
               url: theses/bsc_thesis.pdf
-            # - name: Books
-            #   url: books/
+            - name: Courses
+              url: courses/
             # - name: Tags
             #   url: tags/
             # - name: Archive
