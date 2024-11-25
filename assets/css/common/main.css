@@ -75,8 +75,10 @@ pre:hover .copy-code {
     display: block;
 }
 
-/* Style for links only within my blurb */
-span a, span a:link, span a:visited {
+/* Style for links only within <main> tags */
+main span a,
+main span a:link,
+main span a:visited {
     text-decoration: none;
     background-color: rgba(59, 130, 246, 0.1);
     padding: 2px 6px;
@@ -84,6 +86,6 @@ span a, span a:link, span a:visited {
     transition: background-color 0.2s ease;
 }
 
-span a:hover {
+main span a:hover {
     background-color: rgba(59, 130, 246, 0.2);
 }
