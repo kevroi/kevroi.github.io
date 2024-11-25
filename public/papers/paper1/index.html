@@ -7,7 +7,7 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Goal-Space Planning with Subgoal Models | Kevin Roice</title>
 <meta name="keywords" content="Model-Based Reinforcement Learning, Temporal Abstraction, Planning">
-<meta name="description" content="We propose a long-horizon background-planning algorithm for online RL. This used compressed subgoal models (abstract in state &amp; time) for faster long-term decision making &amp; smarter value propagation.">
+<meta name="description" content="We propose a long-horizon background-planning algorithm for online RL. This used subgoal models (abstract in state &amp; time) for faster long-term decision making &amp; smarter value propagation.">
 <meta name="author" content="Chunlok Lo*,&thinsp;Kevin Roice*,&thinsp;Parham Mohammad Panahi*,&thinsp;Scott M. Jordan,&thinsp;Adam White,&thinsp;Gabor Michuz,&thinsp;Farzane Aminmansour,&thinsp;Martha White">
 <link rel="canonical" href="http://localhost:1313/papers/paper1/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.62a08063c7f522c9426972d30ec2fe0747e41ca7fa59f1363ea7fad7fdfed557.css" integrity="sha256-YqCAY8f1IslCaXLTDsL&#43;B0fkHKf6WfE2Pqf61/3&#43;1Vc=" rel="preload stylesheet" as="style">
@@ -27,7 +27,7 @@
 
     </style>
 </noscript><meta property="og:title" content="Goal-Space Planning with Subgoal Models" />
-<meta property="og:description" content="We propose a long-horizon background-planning algorithm for online RL. This used compressed subgoal models (abstract in state &amp; time) for faster long-term decision making &amp; smarter value propagation." />
+<meta property="og:description" content="We propose a long-horizon background-planning algorithm for online RL. This used subgoal models (abstract in state &amp; time) for faster long-term decision making &amp; smarter value propagation." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/papers/paper1/" />
 <meta property="og:image" content="http://localhost:1313/paper1.png" /><meta property="article:section" content="papers" />
@@ -37,7 +37,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="http://localhost:1313/paper1.png" />
 <meta name="twitter:title" content="Goal-Space Planning with Subgoal Models"/>
-<meta name="twitter:description" content="We propose a long-horizon background-planning algorithm for online RL. This used compressed subgoal models (abstract in state &amp; time) for faster long-term decision making &amp; smarter value propagation."/>
+<meta name="twitter:description" content="We propose a long-horizon background-planning algorithm for online RL. This used subgoal models (abstract in state &amp; time) for faster long-term decision making &amp; smarter value propagation."/>
 
 
 <script type="application/ld+json">
@@ -66,11 +66,11 @@
   "@type": "BlogPosting",
   "headline": "Goal-Space Planning with Subgoal Models",
   "name": "Goal-Space Planning with Subgoal Models",
-  "description": "We propose a long-horizon background-planning algorithm for online RL. This used compressed subgoal models (abstract in state \u0026amp; time) for faster long-term decision making \u0026amp; smarter value propagation.",
+  "description": "We propose a long-horizon background-planning algorithm for online RL. This used subgoal models (abstract in state \u0026amp; time) for faster long-term decision making \u0026amp; smarter value propagation.",
   "keywords": [
     "Model-Based Reinforcement Learning", "Temporal Abstraction", "Planning"
   ],
-  "articleBody": " Download Paper Abstract This paper investigates a new approach to model-based reinforcement learning using background planning: mixing (approximate) dynamic programming updates and model-free updates, similar to the Dyna architecture. Background planning with learned models is often worse than model-free alternatives, such as Double DQN, even though the former uses significantly more memory and computation. The fundamental problem is that learned models can be inaccurate and often generate invalid states, especially when iterated many steps. In this paper, we avoid this limitation by constraining background planning to a given set of (abstract) subgoals and learning only local, subgoal-conditioned models. This goal-space planning (GSP) approach is more computationally efficient, naturally incorporates temporal abstraction for faster long-horizon planning, and avoids learning the transition dynamics entirely. We show that our GSP algorithm can propagate value from an abstract space in a manner that helps a variety of base learners learn significantly faster in different domains.\nFigure 6: Value Function update without (left) and with (right) Goal-Space Planning Citation Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour, Martha White, “Goal-Space Planning with Subgoal Models”, Journal of Machine Learning Research 25 (-): 1-57.\n@article{UI13, author = {Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour and Martha White}, year = {2024}, title ={Goal-Space Planning with Subgoal Models}, journal = {Journal of Machine Learning Research}, volume = {25}, number = {-}, pages = {1-57}} ",
+  "articleBody": " Download Paper Abstract This paper investigates a new approach to model-based reinforcement learning using background planning: mixing (approximate) dynamic programming updates and model-free updates, similar to the Dyna architecture. Background planning with learned models is often worse than model-free alternatives, such as Double DQN, even though the former uses significantly more memory and computation. The fundamental problem is that learned models can be inaccurate and often generate invalid states, especially when iterated many steps. In this paper, we avoid this limitation by constraining background planning to a given set of (abstract) subgoals and learning only local, subgoal-conditioned models. This goal-space planning (GSP) approach is more computationally efficient, naturally incorporates temporal abstraction for faster long-horizon planning, and avoids learning the transition dynamics entirely. We show that our GSP algorithm can propagate value from an abstract space in a manner that helps a variety of base learners learn significantly faster in different domains.\nFigure 6: Value Function update without (left) and with (right) Goal-Space Planning Citation Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour, Martha White, “Goal-Space Planning with Subgoal Models”, Journal of Machine Learning Research 25 (-): 1-57.\n@article{gsp2024, author = {Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour and Martha White}, year = {2024}, title ={Goal-Space Planning with Subgoal Models}, journal = {Journal of Machine Learning Research}, volume = {25}, number = {330}, pages = {1-57}} ",
   "wordCount" : "242",
   "inLanguage": "en",
   "image":"http://localhost:1313/paper1.png","datePublished": "2024-10-22T00:00:00Z",
@@ -180,7 +180,7 @@
     <h1 class="post-title entry-hint-parent">
       Goal-Space Planning with Subgoal Models
     </h1>
-    <div class="post-meta"><span title='2024-10-22 00:00:00 +0000 UTC'>October 2024</span>&nbsp;&middot;&nbsp;Chunlok Lo*,&thinsp;Kevin Roice*,&thinsp;Parham Mohammad Panahi*,&thinsp;Scott M. Jordan,&thinsp;Adam White,&thinsp;Gabor Michuz,&thinsp;Farzane Aminmansour,&thinsp;Martha White
+    <div class="post-meta"><span title='2024-10-22 00:00:00 +0000 UTC'>October 2024</span>&nbsp;&middot;&nbsp;Chunlok Lo*,&thinsp;Kevin Roice*,&thinsp;Parham Mohammad Panahi*,&thinsp;Scott M. Jordan,&thinsp;Adam White,&thinsp;Gabor Michuz,&thinsp;Farzane Aminmansour,&thinsp;Martha White&nbsp;&middot;&nbsp;<a href="http://jmlr.org/papers/v25/24-0040.html" rel="noopener noreferrer" target="_blank">JMLR 2024</a>
 
 </div>
   </header> 
@@ -201,13 +201,13 @@
 <hr>
 <h5 id="citation">Citation</h5>
 <p>Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour, Martha White, &ldquo;Goal-Space Planning with Subgoal Models&rdquo;, <em>Journal of Machine Learning Research</em> 25 (-): 1-57.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{UI13,
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{gsp2024,
 </span></span><span style="display:flex;"><span><span style="color:#1e90ff">author</span> = <span style="color:#a50">{Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour and Martha White}</span>,
 </span></span><span style="display:flex;"><span><span style="color:#1e90ff">year</span> = <span style="color:#a50">{2024}</span>,
 </span></span><span style="display:flex;"><span><span style="color:#1e90ff">title</span> =<span style="color:#a50">{Goal-Space Planning with Subgoal Models}</span>,
 </span></span><span style="display:flex;"><span><span style="color:#1e90ff">journal</span> = <span style="color:#a50">{Journal of Machine Learning Research}</span>,
 </span></span><span style="display:flex;"><span><span style="color:#1e90ff">volume</span> = <span style="color:#a50">{25}</span>,
-</span></span><span style="display:flex;"><span><span style="color:#1e90ff">number</span> = <span style="color:#a50">{-}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">number</span> = <span style="color:#a50">{330}</span>,
 </span></span><span style="display:flex;"><span><span style="color:#1e90ff">pages</span> = <span style="color:#a50">{1-57}</span>}
 </span></span></code></pre></div><hr>
 <!-- ##### Related material

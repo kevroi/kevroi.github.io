@@ -5,12 +5,15 @@ lastmod: 2024-10-28
 tags: ["Model-Based Reinforcement Learning","Temporal Abstraction","Planning"]
 author: ["Chunlok Lo*","Kevin Roice*", "Parham Mohammad Panahi*", "Scott M. Jordan", "Adam White", "Gabor Michuz", "Farzane Aminmansour", "Martha White"]
 description: "" 
-summary: "We propose a long-horizon background-planning algorithm for online RL. This used compressed subgoal
+summary: "We propose a long-horizon background-planning algorithm for online RL. This used subgoal
 models (abstract in state & time) for faster long-term decision making & smarter value propagation." 
 cover:
     image: "paper1.png"
     alt: "Abstract Models for Planning"
     relative: false
+editPost:
+    URL: "http://jmlr.org/papers/v25/24-0040.html"
+    Text: "JMLR 2024"
 
 ---
 
@@ -40,13 +43,13 @@ This paper investigates a new approach to model-based reinforcement learning usi
 Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour, Martha White, "Goal-Space Planning with Subgoal Models", *Journal of Machine Learning Research* 25 (-): 1-57.
 
 ```BibTeX
-@article{UI13,
+@article{gsp2024,
 author = {Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour and Martha White},
 year = {2024},
 title ={Goal-Space Planning with Subgoal Models},
 journal = {Journal of Machine Learning Research},
 volume = {25},
-number = {-},
+number = {330},
 pages = {1-57}}
 ```
 

@@ -13,7 +13,7 @@
       <link>http://localhost:1313/papers/paper1/</link>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/papers/paper1/</guid>
-      <description>We propose a long-horizon background-planning algorithm for online RL. This used compressed subgoal models (abstract in state &amp;amp; time) for faster long-term decision making &amp;amp; smarter value propagation.</description>
+      <description>We propose a long-horizon background-planning algorithm for online RL. This used subgoal models (abstract in state &amp;amp; time) for faster long-term decision making &amp;amp; smarter value propagation.</description>
     </item>
     <item>
       <title>RHapTor: Rendering Haptic Torques for Virtual Reality</title>
