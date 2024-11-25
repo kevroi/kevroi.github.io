@@ -56,6 +56,12 @@
     line-height: var(--lineheight);
 }
 
+.entry-venue {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: var(--secondary);
+}
+
 .entry-content {
     margin: 20px 10px;
     color: var(--secondary);

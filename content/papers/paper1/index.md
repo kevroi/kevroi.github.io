@@ -1,5 +1,6 @@
 ---
 title: "Goal-Space Planning with Subgoal Models" 
+venue: "JMLR 2024"
 date: 2024-10-22
 lastmod: 2024-10-28
 tags: ["Model-Based Reinforcement Learning","Temporal Abstraction","Planning"]

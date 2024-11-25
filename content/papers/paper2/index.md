@@ -1,5 +1,6 @@
 ---
 title: "RHapTor: Rendering Haptic Torques for Virtual Reality" 
+venue: "SIGGRAPH 2022"
 date: 2022-08-07
 lastmod: 2024-10-28
 tags: ["Virtual Reality","Haptic Feedback","Kinaesthetic Devices"]

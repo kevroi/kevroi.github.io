@@ -63,6 +63,11 @@
       </span>
       {{- end }}
     </h2>
+    {{- if .Params.venue }}
+    <div class="entry-venue">
+        <span>{{ .Params.venue }}</span>
+    </div>
+    {{- end }}
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
