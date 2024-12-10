@@ -61,8 +61,8 @@ params:
               url: theses/msc_thesis.pdf
             - name: BSc Thesis
               url: theses/bsc_thesis.pdf
-            # - name: Courses
-            #   url: courses/
+            - name: Courses
+              url: courses/
             # - name: Tags
             #   url: tags/
             # - name: Archive
