@@ -37,14 +37,14 @@ This work investigates the use of rotational inertia from gyroscopic torques as 
 
 ##### Citation
 
-Kevin Roice and George A. Koulieris. 2022. "RHapTor: Rendering Haptic Torques for Virtual Reality" *SIGGRAPH* 2022 Posters.
+Roice K. and Koulieris G.A. (2022) "RHapTor: Rendering Haptic Torques for Virtual Reality", *SIGGRAPH* Posters.
 
 ```BibTeX
-@article{PI04,
+@article{rhaptor2022,
 author = {Kevin Roice and George A. Koulieris},
 year = {2022},
 title ={RHapTor: Rendering Haptic Torques for Virtual Reality},
-journal = {ACM SIGGRAPH}}
+journal = {SIGGRAPH}}
 ```
 
 ---

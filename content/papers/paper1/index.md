@@ -41,7 +41,7 @@ This paper investigates a new approach to model-based reinforcement learning usi
 
 ##### Citation
 
-Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour, Martha White, "Goal-Space Planning with Subgoal Models", *Journal of Machine Learning Research* 25 (-): 1-57.
+Lo C., Roice K., Panahi P.M., Jordan S.M., White A., Michuz G., Aminmansour F., White M. (2024) "Goal-Space Planning with Subgoal Models", *Journal of Machine Learning Research* Volume 25 (330) pages 1-57.
 
 ```BibTeX
 @article{gsp2024,
