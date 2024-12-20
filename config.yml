@@ -13,7 +13,7 @@ menu:
         - name: Publications
           url: papers/
           weight: 2
-        - name: Courses
+        - name: Videos
           url: courses/
           weight: 3
         # - name: Data
