@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
@@ -9,15 +9,15 @@
 <meta name="keywords" content="Model-Based Reinforcement Learning, Temporal Abstraction, Planning">
 <meta name="description" content="We propose a long-horizon background-planning algorithm for online RL. This used subgoal models (abstract in state &amp; time) for faster long-term decision making &amp; smarter value propagation.">
 <meta name="author" content="Chunlok Lo*,&thinsp;Kevin Roice*,&thinsp;Parham Mohammad Panahi*,&thinsp;Scott M. Jordan,&thinsp;Adam White,&thinsp;Gabor Michuz,&thinsp;Farzane Aminmansour,&thinsp;Martha White">
-<link rel="canonical" href="http://localhost:1313/papers/paper1/">
+<link rel="canonical" href="http://localhost:1314/papers/paper1/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.1050d46460bfd9df59f3562df9d8a10b345b98fefc5675b55dab8a6ee815b0ed.css" integrity="sha256-EFDUZGC/2d9Z81Yt&#43;dihCzRbmP78VnW1XauKbugVsO0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" href="http://localhost:1314/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1314/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1314/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1314/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/papers/paper1/">
+<link rel="alternate" hreflang="en" href="http://localhost:1314/papers/paper1/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,13 +29,13 @@
 </noscript><meta property="og:title" content="Goal-Space Planning with Subgoal Models" />
 <meta property="og:description" content="We propose a long-horizon background-planning algorithm for online RL. This used subgoal models (abstract in state &amp; time) for faster long-term decision making &amp; smarter value propagation." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/papers/paper1/" />
-<meta property="og:image" content="http://localhost:1313/paper1.png" /><meta property="article:section" content="papers" />
+<meta property="og:url" content="http://localhost:1314/papers/paper1/" />
+<meta property="og:image" content="http://localhost:1314/paper1.png" /><meta property="article:section" content="papers" />
 <meta property="article:published_time" content="2024-10-22T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-10-28T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/paper1.png" />
+<meta name="twitter:image" content="http://localhost:1314/paper1.png" />
 <meta name="twitter:title" content="Goal-Space Planning with Subgoal Models"/>
 <meta name="twitter:description" content="We propose a long-horizon background-planning algorithm for online RL. This used subgoal models (abstract in state &amp; time) for faster long-term decision making &amp; smarter value propagation."/>
 
@@ -49,13 +49,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Papers",
-      "item": "http://localhost:1313/papers/"
+      "item": "http://localhost:1314/papers/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Goal-Space Planning with Subgoal Models",
-      "item": "http://localhost:1313/papers/paper1/"
+      "item": "http://localhost:1314/papers/paper1/"
     }
   ]
 }
@@ -73,7 +73,7 @@
   "articleBody": " Download Paper Abstract This paper investigates a new approach to model-based reinforcement learning using background planning: mixing (approximate) dynamic programming updates and model-free updates, similar to the Dyna architecture. Background planning with learned models is often worse than model-free alternatives, such as Double DQN, even though the former uses significantly more memory and computation. The fundamental problem is that learned models can be inaccurate and often generate invalid states, especially when iterated many steps. In this paper, we avoid this limitation by constraining background planning to a given set of (abstract) subgoals and learning only local, subgoal-conditioned models. This goal-space planning (GSP) approach is more computationally efficient, naturally incorporates temporal abstraction for faster long-horizon planning, and avoids learning the transition dynamics entirely. We show that our GSP algorithm can propagate value from an abstract space in a manner that helps a variety of base learners learn significantly faster in different domains.\nFigure 6: Value Function update without (left) and with (right) Goal-Space Planning Citation Lo C., Roice K., Panahi P.M., Jordan S.M., White A., Michuz G., Aminmansour F., White M. (2024) “Goal-Space Planning with Subgoal Models”, Journal of Machine Learning Research Volume 25 (330) pages 1-57.\n@article{gsp2024, author = {Chunlok Lo, Kevin Roice, Parham Mohammad Panahi, Scott M. Jordan, Adam White, Gabor Michuz, Farzane Aminmansour and Martha White}, year = {2024}, title ={Goal-Space Planning with Subgoal Models}, journal = {Journal of Machine Learning Research}, volume = {25}, number = {330}, pages = {1-57}} ",
   "wordCount" : "243",
   "inLanguage": "en",
-  "image":"http://localhost:1313/paper1.png","datePublished": "2024-10-22T00:00:00Z",
+  "image":"http://localhost:1314/paper1.png","datePublished": "2024-10-22T00:00:00Z",
   "dateModified": "2024-10-28T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -102,14 +102,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/papers/paper1/"
+    "@id": "http://localhost:1314/papers/paper1/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Kevin Roice",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "http://localhost:1314/favicon.ico"
     }
   }
 }
@@ -156,8 +156,8 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Kevin Roice">
-                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+            <a href="http://localhost:1314/" accesskey="h" title="Kevin Roice">
+                <img src="http://localhost:1314/favicon.ico" alt="" aria-label="logo"
                     height="18"
                     width="18">Kevin Roice</a>
             <div class="logo-switches">
@@ -185,12 +185,12 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/papers/" title="Publications">
+                <a href="http://localhost:1314/papers/" title="Publications">
                     <span>Publications</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/courses/" title="Videos">
+                <a href="http://localhost:1314/courses/" title="Videos">
                     <span>Videos</span>
                 </a>
             </li>
@@ -245,16 +245,16 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/model-based-reinforcement-learning/">Model-Based Reinforcement Learning</a></li>
-      <li><a href="http://localhost:1313/tags/temporal-abstraction/">Temporal Abstraction</a></li>
-      <li><a href="http://localhost:1313/tags/planning/">Planning</a></li>
+      <li><a href="http://localhost:1314/tags/model-based-reinforcement-learning/">Model-Based Reinforcement Learning</a></li>
+      <li><a href="http://localhost:1314/tags/temporal-abstraction/">Temporal Abstraction</a></li>
+      <li><a href="http://localhost:1314/tags/planning/">Planning</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="http://localhost:1313/">Kevin Roice</a></span> ·     
+    <span>&copy; 2025 <a href="http://localhost:1314/">Kevin Roice</a></span> ·     
     <span>
     Powered by 
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
