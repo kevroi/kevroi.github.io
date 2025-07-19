@@ -11,15 +11,13 @@ cover:
     image: "paper2.png"
     alt: "RHapTor"
     relative: false
+downloads:
+    - text: "Paper"
+      url: "paper2/paper2.pdf"
+    - text: "Code"
+      url: "https://github.com/kevroi/Rhaptor"
 
 ---
-
----
-
-##### Download
-
-+ [Paper](paper2.pdf)
-+ [Code](https://github.com/kevroi/Rhaptor)
 
 ---
 
@@ -32,6 +30,13 @@ This work investigates the use of rotational inertia from gyroscopic torques as 
 ##### Figure 2: RHapTor Hardware on an Occulus Rift S
 
 ![](paper2.png)
+
+---
+
+##### Download
+
++ [Paper](paper2.pdf)
++ [Code](https://github.com/kevroi/Rhaptor)
 
 ---
 

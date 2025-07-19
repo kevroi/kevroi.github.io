@@ -66,6 +66,13 @@
     {{- if .Params.venue }}
     <div class="entry-venue">
         <span>{{ .Params.venue }}</span>
+        {{- if .Params.downloads }}
+        <span class="venue-links">
+          {{- range .Params.downloads }}
+          <a href="{{ .url }}" class="venue-link" target="_blank" rel="noopener">{{ .text }}</a>
+          {{- end }}
+        </span>
+        {{- end }}
     </div>
     {{- end }}
   </header>
@@ -74,6 +81,9 @@
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
+  
+
+  
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}

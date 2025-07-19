@@ -15,15 +15,15 @@ cover:
 editPost:
     URL: "http://jmlr.org/papers/v25/24-0040.html"
     Text: "JMLR 2024"
+downloads:
+    - text: "Paper"
+      url: "https://jmlr.org/papers/volume25/24-0040/24-0040.pdf"
+    - text: "Poster"
+      url: "paper1/GSP_Poster_ICML_v5.pdf"
+    # - text: "Code"
+    #   url: "https://github.com/your-repo/gsp"
 
 ---
-
----
-
-##### Download
-
-+ [Paper](paper1.pdf)
-<!-- + [Code and data](https://github.com/pmichaillat/feru) -->
 
 ---
 
@@ -36,6 +36,14 @@ This paper investigates a new approach to model-based reinforcement learning usi
 ##### Figure 6: Value Function update without (left) and with (right) Goal-Space Planning
 
 ![](paper1.png)
+
+---
+
+##### Download
+
++ [Paper](paper1.pdf)
++ [Poster](GSP_Poster_ICML_v4.pdf)
+<!-- + [Code and data](https://github.com/pmichaillat/feru) -->
 
 ---
 
