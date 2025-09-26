@@ -6,7 +6,7 @@
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/model-based-reinforcement-learning/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
@@ -18,7 +18,7 @@
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/temporal-abstraction/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
@@ -36,7 +36,7 @@
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/physics/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/courses/course2/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
@@ -55,6 +55,12 @@
   </url><url>
     <loc>http://localhost:1313/tags/virtual-reality/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogposts/bp1/</loc>
+    <lastmod>2025-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogposts/</loc>
+    <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/courses/course1/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>

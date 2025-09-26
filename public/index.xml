@@ -4,9 +4,9 @@
     <title>Kevin Roice</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Kevin Roice</description>
-    <generator>Hugo -- 0.146.5</generator>
+    <generator>Hugo -- 0.150.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Goal-Space Planning with Subgoal Models</title>
@@ -42,6 +42,15 @@
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/papers/paper2/</guid>
       <description>We augment a virtual reality headset to include two motor-driven discs, which induce a controllable gyroscopic torque on the wearer’s head.</description>
+    </item>
+    <item>
+      <title>Abstracting Science: Do the ends justify the means?</title>
+      <link>http://localhost:1313/blogposts/bp1/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogposts/bp1/</guid>
+      <description>&lt;p&gt;Should we really believe that a cat can be both dead and alive because ‘science’ told us so?&lt;/p&gt;
+&lt;p&gt;Are you telling me that everything we ever have and ever will see in this gigantic Universe was once squashed into a point smaller than an atom?&lt;/p&gt;
+&lt;p&gt;When we try to look into the scientific reasoning and explanations for why these absurd conclusions could be true, they’re often shrouded in a black box of equations and jargon that really doesn’t feel like it’s worth the time to understand completely. At least that’s how I feel about my reading assignments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Explore ML</title>

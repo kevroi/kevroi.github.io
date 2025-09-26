@@ -19,9 +19,9 @@ menu:
         # - name: Data
         #   url: data/
         #   weight: 4 
-        # - name: Blog
-        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-        #   weight: 6
+        - name: Blog
+          url: blogposts/
+          weight: 6
 
 params:
     description: ""
@@ -67,8 +67,8 @@ params:
             #   url: tags/
             # - name: Archive
             #   url: archive/
-            # - name: Blog
-            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Blog
+              url: blogposts/
 
     socialIcons:
         - name: CV
